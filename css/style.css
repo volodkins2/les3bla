@@ -47,7 +47,10 @@ table {
 }
 /* ! reset done*/
 
-.snippet {margin-left:20px ;}
+.snippet {margin-left: 2000px ;}
+#wanna{margin-left:20px ;}
+
+.div{background-color: aqua}
 
 .header {color:black; height: 20px; width: fit-content;font-size: xx-large;margin-bottom: 80px}
 
@@ -77,14 +80,16 @@ table {
 
 .wrapper{background-color:blue ;}
 
-.inner{background-color:yellow ;}
+.inner{background-color:rgb(255, 0, 0) ;}
+#imma{background-color:yellow ;}
+
 
 .control{margin-top:50px ; margin-left: 50px; 
     color: blueviolet; font-size:  50px;}
 
 .search{ margin-top: 20px;}	
 
-.success{border: 2px solid #234;
+.success{border: 3px solid #234;
 } body {
 	background-color: rgb(67, 161, 255);}
 	
