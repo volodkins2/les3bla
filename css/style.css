@@ -1,20 +1,91 @@
 /* !reset.css */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
 	box-sizing: border-box;
 }
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -22,74 +93,217 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 /* ! reset done*/
 
-.snippet {margin-left: 2000px ;}
-#wanna{margin-left:20px ;}
+table,
+td,
+tr,
+th {
+	border: 3px solid #234;
+}
 
-.div{background-color: aqua}
+body {
+	background-color: rgb(67, 161, 255);
+}
 
-.header {color:black; height: 20px; width: fit-content;font-size: xx-large;margin-bottom: 80px}
-
-.selector{color:black ;font-size:x-large; margin-top: 50px;}
-
-.slogan{color:black ;font-size:x-large; margin-top: 50px;}
-
-.img1{text-align: center ;}
-
-.footer{background-color:green; color: white; text-align: center;}
-
-.quote{text-align: center;}
-
-.img2{margin-top: 70px;}
-
-.excerpt{color: white ; background-color:red; font-size:large;margin:0 auto; margin-top: 10px;}
-
-.text{background-color:rgb(0, 255, 255) ;}
-
-.item{background-color:rgb(255, 0, 0) ;}
-
-.desc{background-color:purple ;}
-
-.page{background-color: yellow ;}
-
-.widget{background-color:green ;}
-
-.wrapper{background-color:blue ;}
-
-.inner{background-color:rgb(255, 0, 0) ;}
-#imma{background-color:yellow ;}
+.main-div{
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 1000px;
+	text-align: center;
 
 
-.control{margin-top:50px ; margin-left: 50px; 
-    color: blueviolet; font-size:  50px;}
+}
 
-.search{ margin-top: 20px;}	
 
-.success{border: 3px solid #234;
-} body {
-	background-color: rgb(67, 161, 255);}
+.snippet{
+	font-size: 45px;
+}
+
+
+
+
+
+
+
+.selector {
+
+margin-top: 20px;
+
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+.slogan {
 	
+	font-size: 20px;
+	margin-top: 50px;
+}
+
+
+
+.footer {
+	background-color: green;
+	color: white;
+	text-align: center;
+}
+
+.quote {
+	text-align: center;
+}
+
+.imgs{
+	margin-top: 30px;
+}
+
+.excerpt {
+	color: white;
+	background-color: red;
+	font-size: large;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.text {
+	background-color: rgb(0, 255, 255);
+}
+
+.item {
+	background-color: rgb(255, 0, 0);
+}
+
+.desc {
+	background-color: purple;
+}
+
+.page {
+	background-color: yellow;
+}
+
+.widget {
+	background-color: green;
+}
+
+.wrapper {
+	background-color: blue;
+}
+
+.inner {
+	background-color: rgb(255, 0, 0);
+}
+
+
+
+
+
+.control {
+	margin-top: 50px;
+	text-align: center;
+	color: blueviolet;
+	font-size: 50px;
+}
+
+.search {
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+
+.table-main{
+	width: 1050px;
+	height: 850px;
+	margin-right: auto;
+	 margin-left: auto;
+}
+
+.instrument{
+	background-color:grey ;
+}
+
+.styler{
+	background-color: rgb(95, 122, 19) ;
+}
+
+.omega{
+	background-color: rgb(67, 238, 0) ;
+}
+
+.vertical{
+	background-color:green ;
+}
+
+.alpha{
+	background-color: rgb(95, 122, 19) ;
+}
+
+.lazy{
+	background-color:yellow ;
+}
+
+.agreement{
+	background-color: rgb(95, 122, 19) ;
+}
+
+.abnormal{
+	background-color:blue ;
+}
+
+.urgent{
+	background-color: rgb(95, 122, 19) ;
+}
+
+.shy{
+	background-color:darkgreen ;
+}
+
+.weak{
+	background-color:grey ;
+}
